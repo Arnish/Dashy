@@ -58,6 +58,11 @@
 }
 
 #headerButtons button {
+    background-color: rgb(77, 188, 188);
+    color: white;
+}
+
+#headerButtons button {
     border-radius: 25px;
     border: none;
     padding: 20px;
