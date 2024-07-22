@@ -1,0 +1,45 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+#dashboardLeft {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    background-color: rgb(77, 188, 188);
+    grid-area: 1/1/3/1;
+}
+
+#dashboardLeft button {
+    background: none;
+    border: none;
+    padding: 20px;
+}
+
+#dashboardLeft button:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#headerTop {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns:2fr 1fr;
+}
+
+#headerButtons {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerButtons button {
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+    width: 175px;
+    font-size: 1em;
+    font-weight: bold;
+}
