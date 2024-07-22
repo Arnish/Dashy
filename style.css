@@ -28,6 +28,13 @@
     grid-template-columns:2fr 1fr;
 }
 
+#nameTag {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
+
 #headerButtons {
     gap: 20px;
     display: flex;
@@ -39,7 +46,7 @@
     border-radius: 25px;
     border: none;
     padding: 20px;
-    width: 175px;
+    width: 150px;
     font-size: 1em;
     font-weight: bold;
 }
