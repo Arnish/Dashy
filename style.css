@@ -80,33 +80,42 @@
 
 #midContainer {
     background-color: rgb(223, 222, 222);
+    grid-area: 2/2/3/3;
     display: grid;
     grid-template-columns: 2.3fr 0.7fr;
+    grid-template-rows: 0.3fr 1fr;
+    
 }
 
 #mainHead1 {
-    grid-area: 1/3;
-    position: absolute;
+    grid-area: 1/1/1/3;
+    margin-left: 20px;
+    display: flex;
+    align-items: end;
+}
+#mainHead2 {
+    grid-area: 1/2/1/3;
+    display: flex;
+    align-items: end;
+    margin: 15px;
 }
 
 #mainLeft {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 40px;
-    margin-bottom: 100px;
-    margin-top: 100px;
     margin-right:10px;
     margin-left: 20px;
 }
-#mainHead1, #mainHead2 {
+/* #mainHead1, #mainHead2 {
     margin: 0px;
     text-align: start;
     display: flex;
     align-items: end;
-}
+} */
 #mainLeft div {
     background-color: rgb(255, 255, 255);
-    height: 350px;
+    height: 1fr;
     border-radius: 20px;
     border-left: 15px solid salmon;
 }
