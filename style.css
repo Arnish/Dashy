@@ -32,22 +32,29 @@
 #headerTop {
     display: grid;
     grid-template-rows: 0.25fr 0.25fr;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1.7fr 1fr;
     box-shadow: 0 10px 10px -10px gray;
     position: relative;
 }
 .searchBar{
+    margin-left: 90px;
+    margin-top: 15px;
+    width: 90%;
     border-radius: 20px;
     height: 50px;
     border:none;
     background-color: rgb(224, 223, 223);
 }
 
+#welcomeTag {
+    margin-left: 90px;
+}
+
 #nameTag {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 60px;
+    margin-right: 90px;
 }
 
 #headerButtons {
