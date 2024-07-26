@@ -30,6 +30,12 @@
 
 #dashboardTxt {
     grid-area: 1/1/3/3;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#dashImages {
+    margin-left: 40px;
 }
 #firstImg {
     margin-top:65px;
@@ -84,11 +90,6 @@
     font-weight: bold;
     font-size: 1.5em;
     color: white;
-}
-
-#dashboardLeft h1 {
-    margin-left: 20px;
-    margin-top: 10px;
 }
 
 #dashboardLeft button:hover {
