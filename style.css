@@ -90,7 +90,7 @@
     font-size: 1.5em;
     color: white;
     border-radius: 20px;
-    
+    padding: 20px;
 }
 
 #dashboardLeft button:hover {
