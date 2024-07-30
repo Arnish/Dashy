@@ -79,17 +79,17 @@
 #dashTxt {
     grid-area: 2/2;
     display: grid;
-    grid-template-rows: repeat(9, 0.05fr);
+    grid-template-rows: repeat(9, minmax(75px, 0.05fr));
 }
 
 #dashboardLeft button {
     background: none;
     border: none;
-   
     text-align: left;
     font-weight: bold;
     font-size: 1.5em;
     color: white;
+    
 }
 
 #dashboardLeft button:hover {
@@ -148,6 +148,9 @@
 #headerButtons button {
     background-color: rgb(77, 188, 188);
     color: white;
+}
+#headerButtons button:hover {
+    box-shadow: rgba(199, 148, 148, 0.16) 0px 10px 10px, rgb(106, 106, 106) 0px 0px 10px 3px;
 }
 
 #headerButtons button {
