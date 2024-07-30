@@ -89,6 +89,7 @@
     font-weight: bold;
     font-size: 1.5em;
     color: white;
+    border-radius: 20px;
     
 }
 
@@ -150,7 +151,7 @@
     color: white;
 }
 #headerButtons button:hover {
-    box-shadow: rgba(199, 148, 148, 0.16) 0px 10px 10px, rgb(106, 106, 106) 0px 0px 10px 3px;
+    /* box-shadow: rgba(199, 148, 148, 0.16) 0px 10px 10px, rgb(106, 106, 106) 0px 0px 10px 3px; */
     transform: scale(1.1);
     transition: 100ms ease-in-out;
 }
@@ -209,12 +210,16 @@
     border-radius: 20px;
     border-left: 15px solid salmon;
 }
-
+#mainLeft div:hover{
+    transform: scale(1.1);
+    transition: 100ms ease-in-out;
+}
 .mainTxtd, #announce, #trending {
     box-sizing: border-box; /* prevents padding from adding width to the div */
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
+
 
 #mainRight {
     display: grid;
@@ -222,6 +227,13 @@
     margin-left:15px;
     margin-right: 30px;
     margin-bottom: 100px;
+}
+
+#announce {
+    display: grid;
+}
+#trending {
+    display: grid;
 }
 
 #mainHead3 {
@@ -234,3 +246,7 @@
     border-radius: 20px;
 }
 
+#announce p{
+    font-size: 1.5em;
+    margin: auto;
+}
