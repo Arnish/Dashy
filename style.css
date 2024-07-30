@@ -151,6 +151,8 @@
 }
 #headerButtons button:hover {
     box-shadow: rgba(199, 148, 148, 0.16) 0px 10px 10px, rgb(106, 106, 106) 0px 0px 10px 3px;
+    transform: scale(1.1);
+    transition: 100ms ease-in-out;
 }
 
 #headerButtons button {
